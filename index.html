@@ -18,10 +18,16 @@
     <div class="calculator">
         <input type="text" placeholder="0" id="display" readonly />
         <div class="buttons">
-            <button class="left" onclick="clearDisplay()">C</button>
-            <button class="number" onclick="appendToDisplay('7')">7</button>
-            <button class="number" onclick="appendToDisplay('8')">8</button>
-            <button class="number" onclick="appendToDisplay('9')">9</button>
+            <button class="left" onclick="clearDisplay()"><span>C</span></button>
+            <button class="number" onclick="appendToDisplay('7')">
+          <span>7</span>
+        </button>
+            <button class="number" onclick="appendToDisplay('8')">
+          <span>8</span>
+        </button>
+            <button class="number" onclick="appendToDisplay('9')">
+          <span>9</span>
+        </button>
             <button class="left" onclick="appendToDisplay('+')">+</button>
             <button class="number" onclick="appendToDisplay('4')">4</button>
             <button class="number" onclick="appendToDisplay('5')">5</button>

@@ -46,6 +46,12 @@ body {
     font-weight: 500;
 }
 
+.buttons button span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .buttons button:hover {
     background-color: white;
     color: black;
