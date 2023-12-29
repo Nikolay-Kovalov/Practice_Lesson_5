@@ -17,11 +17,13 @@ body {
 }
 
 #display {
+    -moz-appearance: none;
     margin-top: 40px;
     background-color: black;
     width: 320px;
     height: 64px;
     margin-left: 8px;
+    font-weight: 400;
     margin-right: auto;
     margin-bottom: 8px;
     font-size: 64px;
