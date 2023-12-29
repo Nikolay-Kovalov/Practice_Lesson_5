@@ -1,9 +1,9 @@
 let display = document.getElementById('display');
 let calculator = document.querySelector('.calculator');
 
-calculator.style.height = `${document.documentElement.clientHeight}px`
+// calculator.style.height = `${document.documentElement.clientHeight}px`
 
-console.log(document.documentElement.clientHeight)
+// console.log(document.documentElement.clientHeight)
 
 
 function appendToDisplay(value) {
