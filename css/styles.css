@@ -68,25 +68,43 @@ body {
     align-items: center;
 }
 
-.buttons button:hover {
+
+/* .buttons button:hover {
     background-color: white;
     color: black;
-}
+} */
 
-.left {
+.buttons .left {
     background-color: #ffa00a;
     color: white;
+    transition: background-color 0.2s ease;
 }
 
 .buttons .number {
     color: white;
     background-color: #343434;
+    transition: background-color 0.2s ease;
 }
 
 .buttons .func {
     background-color: #a5a5a5;
     font-size: 24px;
     color: black;
+    transition: background-color 0.2s ease;
+}
+
+.buttons .left:active {
+    background-color: #fcc78d;
+    color: white;
+}
+
+.buttons .number:active {
+    background-color: #737373;
+    color: white;
+}
+
+.buttons .func:active {
+    background-color: #d9d9d9;
 }
 
 .buttons .sign {
@@ -148,22 +166,36 @@ body {
         justify-content: center;
         align-items: center;
     }
-    .buttons button:hover {
+    /* .buttons button:hover {
         background-color: white;
         color: black;
-    }
-    .left {
+    } */
+    .buttons .left {
+        transition: background-color 0.2s ease;
         background-color: #ffa00a;
         color: white;
     }
     .buttons .number {
+        transition: background-color 0.2s ease;
         color: white;
         background-color: #343434;
     }
     .buttons .func {
+        transition: background-color 0.2s ease;
         background-color: #a5a5a5;
         font-size: 24px;
         color: black;
+    }
+    .buttons .left:hover {
+        background-color: #fcc78d;
+        color: white;
+    }
+    .buttons .number:hover {
+        background-color: #737373;
+        color: white;
+    }
+    .buttons .func:hover {
+        background-color: #d9d9d9;
     }
     .buttons .sign {
         font-size: 36px;
