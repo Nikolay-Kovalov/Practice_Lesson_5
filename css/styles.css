@@ -1,4 +1,5 @@
 body {
+    position: relative;
     font-family: PT Sans;
     display: flex;
     justify-content: center;
