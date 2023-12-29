@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+    <div class="calculator">
+        <input type="text" placeholder="0" id="display" readonly />
+        <div class="buttons">
+            <button class="left" onclick="clearDisplay()">C</button>
+            <button class="number" onclick="appendToDisplay('7')">7</button>
+            <button class="number" onclick="appendToDisplay('8')">8</button>
+            <button class="number" onclick="appendToDisplay('9')">9</button>
+            <button class="left" onclick="appendToDisplay('+')">+</button>
+            <button class="number" onclick="appendToDisplay('4')">4</button>
+            <button class="number" onclick="appendToDisplay('5')">5</button>
+            <button class="number" onclick="appendToDisplay('6')">6</button>
+            <button class="left" onclick="appendToDisplay('-')">-</button>
+            <button class="number" onclick="appendToDisplay('1')">1</button>
+            <button class="number" onclick="appendToDisplay('2')">2</button>
+            <button class="number" onclick="appendToDisplay('3')">3</button>
+            <button class="left" onclick="appendToDisplay('*')">*</button>
+            <button class="number" onclick="appendToDisplay('0')">0</button>
+            <button class="number" onclick="appendToDisplay('.')">.</button>
+            <button class="number" onclick="calculateResult()">=</button>
+            <button class="left" onclick="appendToDisplay('/')">/</button>
+            <button class="func" onclick="calculateCos()">Cos</button>
+            <button class="func" onclick="calculateSin()">Sin</button>
+            <button class="func" onclick="calculateTan()">Tan</button>
+            <button class="func" onclick="calculateCot()">Cot</button>
+            <button class="func" onclick="calculateSqrt()">√</button>
+            <button class="func" onclick="calculateSquareRoot()">x²</button>
+            <button class="func" onclick="">xn</button>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
