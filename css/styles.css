@@ -39,10 +39,10 @@ body {
 .buttons button {
     text-align: center;
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    font-size: 28px;
-    margin: 8px;
+    width: 70px;
+    height: 70px;
+    font-size: 32px;
+    margin: 4px;
     cursor: pointer;
     border: none;
     font-weight: 500;
@@ -64,7 +64,7 @@ body {
     color: white;
 }
 
-.number {
+.buttons .number {
     color: white;
     background-color: #343434;
 }
@@ -73,4 +73,8 @@ body {
     background-color: #a5a5a5;
     font-size: 24px;
     color: black;
+}
+
+.buttons .sign {
+    font-size: 36px;
 }
